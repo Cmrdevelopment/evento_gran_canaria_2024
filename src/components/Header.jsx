@@ -21,10 +21,10 @@ const Header = () => {
         </div>
         <div className="bg-white shadow p-8 md:p-36" style={containerStyle}>
           <h1 className="text-indigo-50 text-3xl font-extrabold text-center sm:text-7xl">
-            Los <span className="text-cmrbolsa">cuatro jinetes</span> del apocalipsis
+            Potencia <span className="text-cmrbolsa">tú exito</span> en los mercados
           </h1>
           <p className="text-xl font-extrabold text-center mt-5 sm:text-3xl">
-            <span className="text-indigo-50">{"\"En GRAN CANARIA\""}</span>
+            <span className="text-indigo-50">{"\"Conviértete en un trader exitoso\""}</span>
           </p>
         </div>
         <div className="flex justify-around">
