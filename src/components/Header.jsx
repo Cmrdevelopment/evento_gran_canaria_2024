@@ -16,6 +16,9 @@ const Header = () => {
         <div className="mb-6 bg-cover bg-center bg-no-repeat">
           <h1 className="mt-8 text-5xl font-extrabold text-black text-center sm:text-5xl">
           <span className="inline-block animate-bounce-slow">GRAN CANARIA</span>
+          <p className="text-xl font-extrabold text-center sm:text-3xl">
+            <span className="text-xl text-gray-400">{"\"Evento presencial\""}</span>
+          </p>
           </h1>
           <img className="mt-3 mb-4 mx-auto w-1/3 sm:w-1/12" src="https://res.cloudinary.com/dwbxywvdw/image/upload/v1701727730/Boomers/Logo_a_modificar-removebg-preview_kjo5ld.png" alt="logo Cmrbolsa" />
         </div>
