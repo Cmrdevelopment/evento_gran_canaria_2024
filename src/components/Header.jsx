@@ -3,7 +3,7 @@ import { FiTwitter } from 'react-icons/fi'
 
 const Header = () => {
     
-    const backgroundImageUrl = "https://res.cloudinary.com/dwbxywvdw/image/upload/v1701718883/Boomers/Imagen_4_jinetas_con_fondo_nublado_vjnv41.jpg";
+    const backgroundImageUrl = "https://res.cloudinary.com/dwbxywvdw/image/upload/v1729336985/cmrbolsa/Sala_trader_con_pantalla_verde_o8zlww.jpg";
   const containerStyle = {
     backgroundImage: `url(${backgroundImageUrl})`,
     backgroundSize: "cover",
@@ -21,10 +21,10 @@ const Header = () => {
         </div>
         <div className="bg-white shadow p-8 md:p-36" style={containerStyle}>
           <h1 className="text-indigo-50 text-3xl font-extrabold text-center sm:text-7xl">
-            Potencia <span className="text-cmrbolsa">tú exito</span> en los mercados
+            Potencia <span className="text-green-500">tú exito</span> en los mercados
           </h1>
           <p className="text-xl font-extrabold text-center mt-5 sm:text-3xl">
-            <span className="text-indigo-50">{"\"Conviértete en un trader exitoso\""}</span>
+            <span className="text-indigo-50">{"\"Conviértete en un trader de éxito\""}</span>
           </p>
         </div>
         <div className="flex justify-around">
