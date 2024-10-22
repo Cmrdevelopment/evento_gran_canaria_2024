@@ -32,12 +32,20 @@ const Header = () => {
         <div className="absolute inset-0 bg-black opacity-50"></div>
 
         {/* Contenido encima del fondo */}
-        <div className="relative z-10">
+        {/* <div className="relative z-10">
           <h1 className="text-white text-3xl font-extrabold text-center sm:text-7xl">
             Potencia <span className="text-green-500">tú éxito</span> en los mercados
           </h1>
           <p className="text-xl font-extrabold text-center mt-5 sm:text-3xl">
             <span className="text-white">{"\"Conviértete en un trader de éxito\""}</span>
+          </p>
+        </div> */}
+        <div className="relative z-10">
+          <h1 className="text-white text-3xl font-extrabold text-center sm:text-7xl">
+          Desarrolla   <span className="text-green-500">tus habilidades</span> en los mercados
+          </h1>
+          <p className="text-xl font-extrabold text-center mt-5 sm:text-3xl">
+            <span className="text-white">{"\"Gestiona el riesgo, toma decisiones estratégicas y alcanza resultados sostenibles\""}</span>
           </p>
         </div>
       </div>
