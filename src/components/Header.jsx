@@ -11,7 +11,7 @@ const containerStyle = {
 
 const Header = () => {
   const calculateTimeLeft = () => {
-    const eventDate = new Date("2024-11-29T23:59:59"); // Ajusta la fecha del evento
+    const eventDate = new Date("2024-11-02T23:59:59"); // Ajusta la fecha del evento
     const currentTime = new Date();
     const difference = eventDate - currentTime;
 
@@ -43,52 +43,42 @@ const Header = () => {
     <div>
       {/* Sección de plazas limitadas con contador */}
       <div className="flex justify-center items-center w-full">
-        <div className="bg-cmrbolsa text-white flex flex-col md:flex-row justify-center items-center w-full p-5">
-          <div className="flex-1 text-center p-4">
-            <p className="text-2xl md:text-3xl">
+      <div className="bg-cmrbolsa text-white flex flex-col md:flex-row justify-center items-center w-full p-5">
+        
+        {/* Columna de texto, centrada con texto alineado a la izquierda */}
+        <div className="flex-1 text-center p-4">
+          <div className="inline-block text-left max-w-xl"> {/* Alina el texto a la izquierda */}
+            <p className="text-2xl md:text-3xl text-black font-bold">
               Plazas limitadas
             </p>
-            <p className="text-md md:text-lg">
-              Inscríbete ya para asegurar tu lugar.
+            <p className="text-md md:text-xl">
+              Tendrás 2 meses de la sala de trading gratis y una sesión individual 1:1 conmigo al entrar antes de terminar el contador 
             </p>
           </div>
+        </div>
 
-          {/* Contenedor del contador */}
-          <div className="flex-1 flex justify-center space-x-4">
-            {/* Cuadrado de días */}
-            <div className="bg-gray-800 text-white p-4 w-24 h-24 flex flex-col justify-center items-center rounded-lg">
-              <p className="text-3xl font-bold">
-                {timeLeft.days || 0}
-              </p>
+        {/* Columna del contador */}
+          <div className="flex-1 flex justify-center md:space-x-2 space-x-4">
+            <div className="bg-gray-800 text-white p-4 w-20 h-16 flex flex-col justify-center items-center rounded-lg">
+              <p className="text-3xl font-bold">{timeLeft.days || 0}</p>
               <p className="text-sm">Días</p>
             </div>
-
-            {/* Cuadrado de horas */}
-            <div className="bg-gray-800 text-white p-4 w-24 h-24 flex flex-col justify-center items-center rounded-lg">
-              <p className="text-3xl font-bold">
-                {timeLeft.hours || 0}
-              </p>
+            <div className="bg-gray-800 text-white p-4 w-20 h-16 flex flex-col justify-center items-center rounded-lg">
+              <p className="text-3xl font-bold">{timeLeft.hours || 0}</p>
               <p className="text-sm">Horas</p>
             </div>
-
-            {/* Cuadrado de minutos */}
-            <div className="bg-gray-800 text-white p-4 w-24 h-24 flex flex-col justify-center items-center rounded-lg">
-              <p className="text-3xl font-bold">
-                {timeLeft.minutes || 0}
-              </p>
+            <div className="bg-gray-800 text-white p-4 w-20 h-16 flex flex-col justify-center items-center rounded-lg">
+              <p className="text-3xl font-bold">{timeLeft.minutes || 0}</p>
               <p className="text-sm">Minutos</p>
             </div>
-
-            {/* Cuadrado de segundos */}
-            <div className="bg-gray-800 text-white p-4 w-24 h-24 flex flex-col justify-center items-center rounded-lg">
-              <p className="text-3xl font-bold">
-                {timeLeft.seconds || 0}
-              </p>
+            <div className="bg-gray-800 text-white p-4 w-20 h-16 flex flex-col justify-center items-center rounded-lg">
+              <p className="text-3xl font-bold">{timeLeft.seconds || 0}</p>
               <p className="text-sm">Segundos</p>
             </div>
           </div>
         </div>
       </div>
+
 
       {/* Resto del contenido */}
       <div className="mb-5 bg-cover bg-center bg-no-repeat">
