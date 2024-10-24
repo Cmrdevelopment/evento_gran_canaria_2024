@@ -11,7 +11,7 @@ const containerStyle = {
 
 const Header = () => {
   const calculateTimeLeft = () => {
-    const eventDate = new Date("2024-11-02T23:59:59"); // Ajusta la fecha del evento
+    const eventDate = new Date("2024-10-27T23:59:59"); // Ajusta la fecha del evento
     const currentTime = new Date();
     const difference = eventDate - currentTime;
 
@@ -149,7 +149,7 @@ const Header = () => {
         <div className="flex flex-col items-center m-5"></div>
       </div>
 
-      <section className="mt-10 flex flex-col items-center sm:flex-row sm:justify-center">
+      {/* <section className="mt-10 flex flex-col items-center sm:flex-row sm:justify-center">
         <h3 className="text-sm font-extrabold text-center mb-2 sm:mr-4 sm:mb-0 sm:text-lg">
           Patrocinado por:
         </h3>
@@ -161,9 +161,9 @@ const Header = () => {
             style={{ cursor: 'pointer' }}
           />
         </a>
-      </section>
+      </section> */}
 
-      <div className="flex justify-center">
+      {/* <div className="flex justify-center">
         <a
           href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VX7WDXDPMVYBE"
           target="_blank"
@@ -171,7 +171,7 @@ const Header = () => {
         >
           <button className="mt-3 boton_reserva volvemos-animation">Reservar mi plaza</button>
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };
