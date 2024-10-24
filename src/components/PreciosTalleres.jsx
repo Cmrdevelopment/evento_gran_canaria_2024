@@ -75,6 +75,7 @@ const PreciosTalleres = () => {
             <h3 className="flex items-center md:gap-2 gap-1"><FaCheck />Curso básico de bolsa</h3>
             <h3 className="flex items-center md:gap-2 gap-1"><FaCheck />3 días de taller los días 11, 12 y 13</h3>
             <h3 className="flex items-center md:gap-2 gap-1"><FaCheck />De 16:30 a 21:00 horas</h3>
+            <h3 className="flex items-center md:gap-2 gap-1"><FaCheck />Mercado en vivo y operativa</h3>
             <h3 className="flex items-center md:gap-2 gap-1"><FaCheck />Incluye ASADERO el viernes 13</h3>
 
             <button onClick={handleTallerClick} className="boton_reserva bg-cmrbolsa uppercase pt-2">
