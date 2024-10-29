@@ -8,8 +8,6 @@ import PreciosTalleres from './components/PreciosTalleres'
 import Footer from './components/Footer'
 
 
-
-
 const App = () => {
   
 
@@ -22,8 +20,6 @@ const App = () => {
     <ConoceCmrbolsa/>
     <PreciosTalleres/>
     <Footer/>
-    
-    
     </>
   )
 }

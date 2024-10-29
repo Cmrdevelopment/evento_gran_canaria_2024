@@ -46,7 +46,7 @@ const PreciosTalleres = () => {
             <h3 className="flex items-center md:gap-2 gap-1"><FaCheck />3 Sorteo de un mes de sala gratis</h3>
 
 
-            <button onClick={handleCharlaClick} className="boton_reserva boton_animation bg-cmrbolsa uppercase pt-2">
+            <button onClick={handleCharlaClick} className="boton_reserva boton_animation bg-cmrbolsa uppercase">
               Me apunto
             </button>
           </div>
@@ -120,14 +120,15 @@ const PreciosTalleres = () => {
     <div className="flex flex-col text-center">
       <h2 className="text-xl font-bold text-cmrbolsa mt-5">Ahora</h2>
       <h2 className="md:text-7xl text-5xl font-bold text-cmrbolsa text-center">
-        195,00
+        225,00
         <span className="text-2xl text-cmrbolsa font-bold"> €</span>
       </h2>
     </div>
 
     {/* Precios tachados */}
     <h2 className="md:text-xl text-md font-bold text-cmrbolsa text-center ml-5 mr-5 mt-1">
-      <span className="line-through text-gray-300">225,00 €</span>
+      <span className="line-through text-gray-300">195,00 €</span>
+      <span className="ml-3 text-cmrbolsa ">225,00 €</span>
       <span className="ml-3 line-through text-gray-300">260,00 €</span>
       <span className="ml-3 line-through text-gray-300">295,00 €</span>
       <span className="ml-3 line-through text-gray-300">325,00 €</span>
@@ -137,7 +138,7 @@ const PreciosTalleres = () => {
 
     <h5 className="mt-2 font-semibold mb-5 w-full text-center">
       <h5 className="mt-2 font-semibold mb-5 w-full max-w-xl mx-auto text-center">
-        Si te apuntas antes del 27 OCTUBRE pagas <span className="text-cmrbolsa text-2xl font-bold">SOLO 195 €</span>
+        Si te apuntas antes del 3 NOVIEMBRE pagas <span className="text-cmrbolsa text-2xl font-bold">SOLO 225 €</span>
       </h5>
       <h5 className="mt-2 font-semibold mb-5 w-full max-w-xl mx-auto text-center">
         Cada semana aumentará el precio así que cuanto antes te apuntes menos pagarás
@@ -157,7 +158,7 @@ const PreciosTalleres = () => {
             <h3 className="flex items-center md:gap-2 gap-1"><FaCheck />Mercado en vivo y operativa</h3>
             <h3 className="flex items-center md:gap-2 gap-1"><FaCheck />Incluye ASADERO el viernes 13</h3>
 
-            <button onClick={handleTallerClick} className="boton_reserva bg-cmrbolsa uppercase pt-2">
+            <button onClick={handleTallerClick} className="boton_reserva bg-cmrbolsa uppercase">
               Me apunto
             </button>
 
