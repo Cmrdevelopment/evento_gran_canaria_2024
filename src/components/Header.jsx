@@ -1,5 +1,6 @@
 import { FiTwitter } from 'react-icons/fi';
 import { useState, useEffect } from 'react';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const backgroundImageUrl = "https://res.cloudinary.com/dwbxywvdw/image/upload/v1729336985/cmrbolsa/Sala_trader_con_pantalla_verde_o8zlww.jpg";
 
@@ -148,6 +149,20 @@ const Header = () => {
           </a>
         </div>
         <div className="flex flex-col items-center m-5"></div>
+      </div>
+      <div className="flex flex-col items-center mt-10 mb-10">
+        <p className="text-xl font-semibold mb-3 text-center">
+          ¿Tienes dudas o preguntas? ¡Envíanos un mensaje por WhatsApp!
+        </p>
+        <a 
+          href="https://wa.me/34626787673" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 px-5 py-3 bg-green-500 text-white font-bold rounded-lg shadow-md hover:bg-green-600 transition-colors"
+        >
+          <FaWhatsapp className="text-2xl" />
+          Enviar mensaje
+        </a>
       </div>
 
       {/* <section className="mt-10 flex flex-col items-center sm:flex-row sm:justify-center">
