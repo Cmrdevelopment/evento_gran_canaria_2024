@@ -12,7 +12,7 @@ const containerStyle = {
 
 const Header = () => {
   const calculateTimeLeft = () => {
-    const eventDate = new Date("2024-11-03T23:59:59"); // Ajusta la fecha del evento
+    const eventDate = new Date("2024-11-10T23:59:59"); // Ajusta la fecha del evento
     const currentTime = new Date();
     const difference = eventDate - currentTime;
 
