@@ -12,7 +12,7 @@ const containerStyle = {
 
 const Header = () => {
   const calculateTimeLeft = () => {
-    const eventDate = new Date("2024-11-10T23:59:59"); // Ajusta la fecha del evento
+    const eventDate = new Date("2024-11-11T23:59:59"); // Ajusta la fecha del evento
     const currentTime = new Date();
     const difference = eventDate - currentTime;
 
@@ -60,7 +60,9 @@ const Header = () => {
         </div>
 
         {/* Columna del contador */}
-          <div className="flex-1 flex justify-center md:space-x-2 space-x-4">
+        <div className="flex-1 flex flex-col justify-center items-center">
+          {/* Contador en fila */}
+          <div className="flex space-x-4">
             <div className="bg-gray-800 text-white p-4 w-20 h-16 flex flex-col justify-center items-center rounded-lg">
               <p className="text-3xl font-bold">{timeLeft.days || 0}</p>
               <p className="text-sm">Días</p>
@@ -78,6 +80,15 @@ const Header = () => {
               <p className="text-sm">Segundos</p>
             </div>
           </div>
+          
+          {/* Texto debajo del contador */}
+          <div className="">
+            <p className="text-xl md:text-2xl text-black font-bold">
+              queda para cambiar de precio
+            </p>
+          </div>
+        </div>
+
         </div>
       </div>
 
