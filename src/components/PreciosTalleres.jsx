@@ -138,7 +138,7 @@ const PreciosTalleres = () => {
 
     <h5 className="mt-2 font-semibold mb-5 w-full text-center">
       <h5 className="mt-2 font-semibold mb-5 w-full max-w-xl mx-auto text-center">
-        Si te apuntas antes del 3 NOVIEMBRE pagas <span className="text-cmrbolsa text-2xl font-bold">SOLO 225 €</span>
+        Si te apuntas antes de que términe el contador pagas <span className="text-cmrbolsa text-2xl font-bold">SOLO 225 €</span>
       </h5>
       <h5 className="mt-2 font-semibold mb-5 w-full max-w-xl mx-auto text-center">
         Cada semana aumentará el precio así que cuanto antes te apuntes menos pagarás
