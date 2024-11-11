@@ -151,7 +151,7 @@ const PreciosTalleres = () => {
             <h5 className="text-2xl text-white font-semibold bg-cmrbolsa w-full p-2 text-center">¿Qué incluye?</h5>
             <h3 className="flex items-center md:gap-2 gap-1"><FaCheck />Incluye la charla del día 29 Noviembre</h3>
             <h3 className="flex items-center md:gap-2 gap-1"><FaCheck />Incluye 2 meses de sala gratuita</h3>
-            <h3 className="flex items-center md:gap-2 gap-1"><FaCheck />Sesión 1:1 conmigo vía zoom</h3>
+            {/* <h3 className="flex items-center md:gap-2 gap-1"><FaCheck />Sesión 1:1 conmigo vía zoom</h3> */}
             <h3 className="flex items-center md:gap-2 gap-1"><FaCheck />Curso básico de bolsa</h3>
             <h3 className="flex items-center md:gap-2 gap-1"><FaCheck />3 días de taller los días 11, 12 y 13</h3>
             <h3 className="flex items-center md:gap-2 gap-1"><FaCheck />De 16:30 a 21:00 horas</h3>
