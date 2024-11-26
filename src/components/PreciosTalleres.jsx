@@ -124,7 +124,7 @@ const PreciosTalleres = () => {
     <div className="flex flex-col text-center">
       <h2 className="text-xl font-bold text-cmrbolsa mt-5">Ahora</h2>
       <h2 className="md:text-7xl text-5xl font-bold text-cmrbolsa text-center">
-        260,00
+        295,00
         <span className="text-2xl text-cmrbolsa font-bold"> €</span>
       </h2>
     </div>
@@ -132,9 +132,9 @@ const PreciosTalleres = () => {
     {/* Precios tachados */}
     <h2 className="md:text-xl text-md font-bold text-cmrbolsa text-center ml-5 mr-5 mt-1">
       <span className="line-through text-gray-300">195,00 €</span>
-      <span className="ml-3 line-through text-gray-300 ">225,00 €</span>
-      <span className="ml-3 text-cmrbolsa">260,00 €</span>
-      <span className="ml-3 line-through text-gray-300">295,00 €</span>
+      <span className="ml-3 line-through text-gray-300">225,00 €</span>
+      <span className="ml-3 line-through text-gray-300">260,00 €</span>
+      <span className="ml-3 text-cmrbolsa">295,00 €</span>
       <span className="ml-3 line-through text-gray-300">325,00 €</span>
       <span className="ml-3 line-through text-gray-300">380,00 €</span>
       <span className="ml-3 line-through text-gray-300">435,00 €</span>
@@ -142,7 +142,7 @@ const PreciosTalleres = () => {
 
     <h5 className="mt-2 font-semibold mb-5 w-full text-center">
       <h5 className="mt-2 font-semibold mb-5 w-full max-w-xl mx-auto text-center">
-        Si te apuntas antes de que términe el contador pagas <span className="text-cmrbolsa text-2xl font-bold">SOLO 260 €</span>
+        Si te apuntas antes de que términe el contador pagas <span className="text-cmrbolsa text-2xl font-bold">SOLO 295 €</span>
       </h5>
       <h5 className="mt-2 font-semibold mb-5 w-full max-w-xl mx-auto text-center">
         Cada semana aumentará el precio así que cuanto antes te apuntes menos pagarás
