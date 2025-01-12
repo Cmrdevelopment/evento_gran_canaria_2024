@@ -1,12 +1,4 @@
-// /** @type {import('tailwindcss').Config} */
 
-// export default {
-//   content: ["./index.html", "./src/**/*.{js,jsx}"], // Esto está bien si tienes archivos .js y .jsx en src
-//   theme: {
-//     extend: {},
-//   },
-//   plugins: [],
-// }
 
 /** @type {import('tailwindcss').Config} */
 export const content = ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"];
